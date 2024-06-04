@@ -1,0 +1,17 @@
+name: MineCrushStorage
+version: '${version}'
+main: gg.minecrush.minecrushstorage.MineCrushStorage
+api-version: '1.20'
+prefix: [MineCrushStorage]
+authors: [Yirf]
+description: Storage plugin for MineCrush Network
+website: minecrush.gg
+permissions:
+  MineCrushStorage.getHead:
+    default: false
+    description: Allows you to get the head of a player
+commands:
+  gethead:
+    description: Get the head of a player
+    usage: /<command> <player>
+    permission: MineCrushStorage.gethead
